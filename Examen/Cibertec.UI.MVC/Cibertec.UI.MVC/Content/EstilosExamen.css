@@ -1,0 +1,279 @@
+﻿header {
+  border: 1px solid #ddd;
+  background-color: red;
+  color: white; }
+
+#main_title {
+  display: inline-block; }
+
+header h1 {
+  font-family: 'BallparkWeiner', serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0px; }
+
+header h2 {
+  font-family: Dayrom, serif;
+  font-size: 1.1em;
+  margin-top: 0px;
+  font-weight: normal; }
+
+#main_wrapper {
+  width: 900px;
+  margin: auto; }
+
+section h1, footer h1 {
+  font-family: Dayrom, serif;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+.page {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #ddd;
+  width: 900px;
+  margin: auto; }
+
+#prueba {
+  float: left;
+  width: 25%; }
+
+/*
+#prueba2{   
+    margin: 20px;
+    
+}*/
+article {
+  width: 625px;
+  margin-right: 15px; }
+
+footer {
+  clear: both;
+  border: 1px solid #ddd;
+  background-color: #ddcc99; }
+
+body {
+  color: #333;
+  background-color: greenyellow;
+  background: url("../scss/UNIVERSIDAD.jpg") top center; }
+
+footer {
+  background: url("../scss/images/top.png") no-repeat top center, url("../scss/images/line.png") repeat-x top, url("../scss/images/shadow.png") repeat-x top;
+  padding-top: 25px;
+  background-color: greenyellow; }
+
+footer p, footer ul {
+  font-size: 0.8em; }
+
+footer h1 {
+  font-size: 1.1em; }
+
+.headerlogo {
+  width: 150px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px; }
+
+#tweet, #my_pictures, #my_friends {
+  display: inline-block;
+  vertical-align: top; }
+
+#RegistroAlta label {
+  display: block;
+  margin: 15px 0 0 0; }
+
+#RegistroAlta2 div {
+  margin: 10px 0 0 0; }
+
+#RegistroAlta2 div label {
+  width: 15%;
+  float: left; }
+
+#RegistroAlta3 fieldset {
+  width: 45%;
+  float: left; }
+
+#RegistroAlta3 label {
+  display: block;
+  margin: 15px 0 0 0; }
+
+#tweet {
+  width: 28%; }
+
+#my_pictures {
+  width: 35%; }
+
+#my_friends {
+  width: 31%; }
+
+#my_friends ul {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  width: 48%;
+  list-style-image: url("images/UNIVERSIDAD.jpg");
+  padding-left: 2px; }
+
+#my_friends a {
+  text-decoration: none;
+  color: #760001; }
+
+.navegador_horizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+.navegador_horizontal li {
+  float: left; }
+
+.navegador_horizontal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navegador_horizontal li a:hover:not(.active) {
+  background-color: #111; }
+
+.navegador_horizontal .active {
+  background-color: #4CAF50; }
+
+.navegador_vertical ul {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  width: 48%;
+  padding-left: 2px; }
+
+.navegador_vertical a {
+  text-decoration: none;
+  color: #760001; }
+
+.navegador_vertical li a:hover:not(.active) {
+  background-color: #111; }
+
+.navegador_vertical .active {
+  background-color: #4CAF50; }
+
+.class_form {
+  width: 100%;
+  transition: rotate(180deg); }
+
+.class_form div {
+  margin: auto;
+  margin-top: 5%; }
+
+#login {
+  transform: rotate(0deg); }
+
+#registrar {
+  transform: translatex(-100%);
+  display: none; }
+
+#Info {
+  transform: translatex(-100%);
+  display: none; }
+
+.login {
+  width: 500px;
+  padding: 3% 5%;
+  border-radius: 5px;
+  border: solid 2px rgba(20, 20, 20, 0.8); }
+
+.login h3 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center; }
+
+.formulario form label {
+  font-size: 1.2em;
+  color: white; }
+
+.formulario form input[type="text"], .formulario form input[type="password"] {
+  width: 90%;
+  padding: 2% 3%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin: 2% 0%; }
+
+.formulario form input[type="button"] {
+  padding: 2% 10%;
+  margin-top: 2%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  background-color: #2E34D1; }
+
+.formulario form input[type="button"]:hover {
+  cursor: pointer; }
+
+.formulario form input[type="button"]:focus {
+  background-color: #22269B;
+  outline: none; }
+
+.formulario p {
+  color: white; }
+
+table.forTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 70%;
+  text-align: left;
+  border-collapse: collapse; }
+
+table.forTable td, table.forTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px; }
+
+table.forTable tbody td {
+  font-size: 13px; }
+
+table.forTable tr:nth-child(even) {
+  background: #D0E4F5; }
+
+table.forTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444; }
+
+table.forTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5; }
+
+table.forTable thead th:first-child {
+  border-left: none; }
+
+table.forTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444; }
+
+table.forTable tfoot td {
+  font-size: 14px; }
+
+table.forTable tfoot .links {
+  text-align: right; }
+
+table.forTable tfoot .links a {
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px; }
